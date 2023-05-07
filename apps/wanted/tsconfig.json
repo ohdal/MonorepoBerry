@@ -16,7 +16,12 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "exclude": [
     "**/node_modules",
@@ -31,6 +36,7 @@
     "**/*.cjs",
     "**/*.mjs",
     "**/*.jsx",
-    "**/*.json"
+    "**/*.json",
+    ".next/types/**/*.ts"
   ]
 }

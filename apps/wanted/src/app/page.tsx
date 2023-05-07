@@ -1,4 +1,5 @@
 import { sayHello } from '@wanted/lib';
+import { Button } from '@wanted/ui';
 import Image from 'next/image';
 import styles from './page.module.css';
 
@@ -10,7 +11,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
-        <p>{sayHello()}</p>
+        <Button>{sayHello()}</Button>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
