@@ -11,7 +11,7 @@ const Button = (props: ButtonProps) => {
 
   return (
     <button type="button" onClick={onClick} {...other}>
-      {children}
+      {children + 'tset'}
     </button>
   );
 };
